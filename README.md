@@ -7,12 +7,12 @@ This repository contains code for building and training a deep learning model to
 The dataset should be organized in the following structure:
 
 - deepfake_dataset/
-- - ├── train/
-- - -│ ├── Real/
-- - -│ └── Fake/
-- -└── val/
-- - -├── Real/
-- - -└── Fake/
+- ├── train/
+- │ ├── Real/
+- │ └── Fake/
+- └── val/
+-   ├── Real/
+-   └── Fake/
 
 Each folder (`Real` and `Fake`) should contain images representing that class.
 
@@ -51,7 +51,7 @@ Required packages include:
 📊 Sample Results
 - Total Data:140000 (70000 Real +70000 Fake)
 - Data Split:80:20
-Metric	Value
+## Metric	Value
 - Training Accuracy	~71%
 - Validation Accuracy	~81%
 - Final Val Loss	~0.47
