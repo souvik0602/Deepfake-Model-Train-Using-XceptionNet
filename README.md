@@ -6,13 +6,13 @@ This repository contains code for building and training a deep learning model to
 ## 📁 Dataset Structure
 The dataset should be organized in the following structure:
 
-deepfake_dataset/
-├── train/
-│ ├── Real/
-│ └── Fake/
-└── val/
-├── Real/
-└── Fake/
+- deepfake_dataset/
+- - ├── train/
+- - -│ ├── Real/
+- - -│ └── Fake/
+- -└── val/
+- - -├── Real/
+- - -└── Fake/
 
 Each folder (`Real` and `Fake`) should contain images representing that class.
 
